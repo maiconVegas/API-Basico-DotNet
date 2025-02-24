@@ -11,15 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Core\Controllers\" />
     <Folder Include="Core\Entities\" />
     <Folder Include="Core\Enums\" />
     <Folder Include="Core\Messaging\" />
     <Folder Include="Core\Paginator\" />
     <Folder Include="Features\" />
     <Folder Include="Infrastructure\Data\Configurations\" />
-    <Folder Include="Infrastructure\Filters\" />
-    <Folder Include="Infrastructure\Startup\" />
   </ItemGroup>
 
 </Project>
