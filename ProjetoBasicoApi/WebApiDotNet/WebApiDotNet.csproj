@@ -19,8 +19,6 @@
   <ItemGroup>
     <Folder Include="Core\Entities\" />
     <Folder Include="Core\Enums\" />
-    <Folder Include="Core\Messaging\" />
-    <Folder Include="Core\Paginator\" />
     <Folder Include="Features\" />
     <Folder Include="Infrastructure\Data\Configurations\" />
   </ItemGroup>
