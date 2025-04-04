@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebApiDotNet.Core.Entities;
 
 namespace WebApiDotNet.Infrastructure.Data
 {
@@ -8,6 +9,8 @@ namespace WebApiDotNet.Infrastructure.Data
         {
 
         }
+
+        public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
